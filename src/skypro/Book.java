@@ -3,6 +3,8 @@ package skypro;
 public class Book {
     private String bookTitle;
     private int publicationYear;
+    Author author = new Author();
+
 
     public Book(String bookTitle, int publicationYear) {
         this.bookTitle = bookTitle;
